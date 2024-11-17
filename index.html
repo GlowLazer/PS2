@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMqj4W3u6Uq6D4z5O7zqD5/2e1z2Hc2f7xG1d" crossorigin="anonymous">
+    <title>Classroom Booking System</title>
+</head>
+<body>
+    <header>
+        <img src="PHOTO-2024-11-17-17-23-17.jpg" alt="Logo" class="logo">
+        <h1>Classroom Booking System</h1>
+        <p>Reserve your space effortlessly</p>
+    </header>
+    <main>
+        <h2>Available Classrooms</h2>
+        <div id="classroom-list">
+            <div class="classroom" data-id="1">
+                <h3><i class="fas fa-chair"></i> ClassRoom 1</h3>
+                <p>Capacity: 30</p>
+                <button onclick="bookClassroom(1)">Book Now</button>
+            </div>
+            <div class="classroom" data-id="2">
+                <h3><i class="fas fa-chair"></i> ClassRoom 2</h3>
+                <p>Capacity: 25</p>
+                <button onclick="bookClassroom(2)">Book Now</button>
+            </div>
+            <div class="classroom" data-id="3">
+                <h3><i class="fas fa-chair"></i> ClassRoom 3</h3>
+                <p>Capacity: 20</p>
+                <button onclick="bookClassroom(3)">Book Now</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Classroom Booking System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
